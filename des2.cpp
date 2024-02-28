@@ -58,7 +58,9 @@ double exact(vector<double> c) {
 
 // read coefficients from cin, until empty newline
 vector<double> read_coefficients(void) {
-    // your code here
+    string userInput; 
+    getline ( cin , userInput);
+    
 }
 
 // evaluate polynomial given by coefficients c at x
@@ -71,7 +73,7 @@ double estimate(double step, vector<double> c) {
 }
 
 int main(void) {
-    // your code here
+    read_coefficients();
 
     return 0;
 }
